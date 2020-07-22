@@ -8,7 +8,7 @@ This repo contains the code I used to conduct analysis and generate figures for 
 
 To see the results of this code, check out the [Medium article](https://medium.com/@jakepscott16/he-dies-she-sucks-b4a8ac18cb73). 
 
-If you want to run or edit the code on your own computer,  download the code and data from this repo, and follow the instructions below. 
+If you want to run or edit the code on your own computer,  download the code and data from this repo, and follow the instructions below. Please note, you will have to run the code itself to get the data. Unfortunately, besides the gender data, the rest of the data was too large for me to upload.
 
 * Step 1: Run Downloading_Raw_Data.R file to get raw CSVs from Spotify
 *	Step 2: Move CSVs to Raw_CSVs folder (a solution where rSelenium automatically downloads into the Raw_CSVs folder is something I'd love, and have not found yet)
