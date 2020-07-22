@@ -10,7 +10,7 @@ To see the results of this code, check out the [Medium article](https://medium.c
 
 If you want to run or edit the code on your own computer,  download the code and data from this repo, and follow the instructions below. Please note, you will have to run the code itself to get the data. Unfortunately, besides the gender data, the rest of the data was too large for me to upload.
 
-* Step 1: Run Downloading_Raw_Data.R file to get raw CSVs from Spotify
+* Step 1: Run Downloading_Raw_Data.R file to get raw CSVs from Spotify. You may have to adjust the `rsDriver()` function parameters to suite your browser of choice.
 *	Step 2: Move CSVs to Raw_CSVs folder (a solution where rSelenium automatically downloads into the Raw_CSVs folder is something I'd love, and have not found yet)
 *	Step 3: Run Making_US_Data_RDS.R file to get US_Data RDS out of the raw CSVs
 *	Step 4: Run Feature_Generation.R file (Note: the code has `source("Spotify_Key.R")` in the code. This is to protect my app ID, client ID, and client secret. To run the code yourself, you will need to your own and place it in the `spotifyOAuth()` function from the [Rspotify](https://cran.r-project.org/web/packages/Rspotify/Rspotify.pdf) package.  
