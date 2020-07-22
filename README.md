@@ -49,4 +49,4 @@ This code downloads, cleans, and uses the top 200 data from [Spotify](https://sp
 
 ## Author
 
-* **Jake Scott** - [Twitter](https://twitter.com/jakepscott2020), [Medium](https://medium
+* **Jake Scott** - [Twitter](https://twitter.com/jakepscott2020), [Medium](https://medium.com/@jakepscott16)
